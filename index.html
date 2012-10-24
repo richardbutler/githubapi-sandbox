@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/default.css" />
+    
+    <script src="/app/lib/require.js" data-main="/app/main"></script>
+
+    <title>Backbone Sandbox</title>
+  </head>
+
+  <body>
+    <header>
+      <nav></nav>
+      <div>
+        <label for="repository-select">Repository:</label>
+        <select id="repository-select"></select>
+      </div>
+      <div>
+        <label for="user-select">User:</label>
+        <select id="user-select"></select>
+      </div>
+    </header>
+    <section>
+      <div id="github-list"></div>
+      <canvas id="graph-canvas" width="600" height="400"></canvas>
+    </section>
+    <footer></footer>
+  </body>
+</html>

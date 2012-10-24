@@ -1,0 +1,15 @@
+#github-list ul li {
+  background: #f9f9f9;
+  overflow: hidden;
+}
+
+#github-list ul li p {
+  padding: 8px 12px;
+  border-top: 1px dotted #c8c8c8;
+  display: block;
+}
+
+#github-list ul li em {
+  font-style: italic;
+  color: #7e7e7e;
+}

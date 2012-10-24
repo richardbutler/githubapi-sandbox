@@ -1,0 +1,38 @@
+html, body {
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: .8em;
+  line-height: 120%;
+  color: #333333;
+}
+
+header {
+  background: #333333;
+  color: #d8d8d8;
+  padding: 8px 12px;
+}
+
+header label {
+  display: block;
+  float: left;
+  width: 100px;
+  margin-top: 4px;
+}
+
+a {
+  color: #ff9900;
+}
+
+#github-list {
+  float: left;
+  width: 300px;
+}
+
+#graph-canvas {
+  float: left;
+  width: 600px;
+  height: 400px;
+}
+
+.small {
+  font-size: .9em;
+}
